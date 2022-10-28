@@ -1,5 +1,5 @@
-var GyanChain = artifacts.require('GyanChain');
+var ChainEducation = artifacts.require('ChainEducation');
 
 module.exports = function(deployer) {
-	deployer.deploy(GyanChain);
+	deployer.deploy(ChainEducation);
 }

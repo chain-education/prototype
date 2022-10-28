@@ -1,6 +1,6 @@
 pragma solidity ^0.4.24;
 
-contract GyanChain {
+contract ChainEducation {
 
   event CourseAdded(string name, string category, uint ID, uint lenCourse, uint lenStudent);
   event CoursePurchased(uint indexed studentID, uint indexed courseID);
